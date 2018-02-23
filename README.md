@@ -9,9 +9,10 @@ const sqlLoader = require( "sqlloader");
 
 sqlLoader.load( "./sql/*.sql", function( err, sql) {
     global.g_sql = sql;
+
+    db.query( g_sql.getUsers, function... );
 })
 
-db.query( g_sql.getUsers, function... );
 
 ```
 
