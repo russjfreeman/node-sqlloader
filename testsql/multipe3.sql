@@ -1,0 +1,3 @@
+/*multiStatementThree*/
+Select 3
+;

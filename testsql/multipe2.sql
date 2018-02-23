@@ -1,0 +1,3 @@
+/*multiStatementTwo*/
+Select 2
+;

@@ -1,0 +1,3 @@
+/*multiStatementOne*/
+Select 1
+;
