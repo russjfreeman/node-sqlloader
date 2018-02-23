@@ -18,6 +18,8 @@ function testWorks() {
         assert( !err );
         assert( sql.testOne);
         assert( sql.testTwo);
+        assert( sql.testThree);
+        assert( sql.testFour);
 
         testDuplicateSQL();
     })
