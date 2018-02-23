@@ -1,5 +1,5 @@
 {
-  "name": "sqlloader",
+  "name": "node-sqlloader",
   "version": "0.0.1",
   "description": "A handy node module to get your SQL statements out of your code and into .sql files",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/russjfreeman/sqlloader.git"
+    "url": "git+https://github.com/russjfreeman/node-sqlloader.git"
   },
   "keywords": [
     "node",
@@ -18,10 +18,11 @@
   "author": "Russ J Freeman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/russjfreeman/sqlloader/issues"
+    "url": "https://github.com/russjfreeman/node-sqlloader/issues"
   },
-  "homepage": "https://github.com/russjfreeman/sqlloader#readme",
+  "homepage": "https://github.com/russjfreeman/node-sqlloader",
   "dependencies": {
+    "async": "^2.6.0",
     "glob": "^7.1.2"
   }
 }
