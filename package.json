@@ -1,6 +1,6 @@
 {
   "name": "node-sqlloader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A handy node module to get your SQL statements out of your code and into .sql files",
   "main": "index.js",
   "scripts": {
