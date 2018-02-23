@@ -5,7 +5,7 @@ A handy node module to get SQL out of your code and into .sql files.
 ## Typical usage
 
 ``` Javascript
-const sqlLoader = require( "sqlloader");
+const sqlLoader = require( "node-sqlloader");
 
 sqlLoader.load( "./sql/*.sql", function( err, sql) {
     global.g_sql = sql;
